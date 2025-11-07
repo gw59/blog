@@ -1,4 +1,10 @@
-{%- if page.sharing -%}
+{%- if page.sharing and site.comments.giscus.repo and
+site.comments.giscus.repo-id and site.comments.giscus.category and
+site.comments.giscus.category-id and site.comments.giscus.mapping and
+!site.comments.giscus.strict and site.comments.giscus.reactions-enabled and
+!site.comments.giscus.emit-metadata and site.comments.giscus.input-position and
+site.comments.giscus.theme and site.comments.giscus.lang and
+site.comments.giscus.loading and site.comments.giscus.crossorigin -%}
 <script
   src="https://giscus.app/client.js"
   data-repo="gw59/blog"
