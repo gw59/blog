@@ -112,19 +112,20 @@ comments:
   provider: giscus # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## giscus
-  giscus: repo="gw59/blog"
-    repo-id="R_kgDOQQZCfA"
-    category="Announcements"
-    category-id="DIC_kwDOQQZCfM4Cxhn8"
-    mapping="pathname"
-    strict="0"
-    reactions-enabled="1"
-    emit-metadata="0"
-    input-position="top"
-    theme="preferred_color_scheme"
-    lang="zh-CN"
-    loading="lazy"
-    crossorigin="anonymous"
+  giscus: 
+    repo: "gw59/blog"
+    repo-id: "R_kgDOQQZCfA"
+    category: "Announcements"
+    category-id: "DIC_kwDOQQZCfM4Cxhn8"
+    mapping: "pathname"
+    strict: "0"
+    reactions-enabled: "1"
+    emit-metadata: "0"
+    input-position: "top"
+    theme: "preferred_color_scheme"
+    lang: "zh-CN"
+    loading: "lazy"
+    crossorigin: "anonymous"
 
   ## Disqus
   disqus:
@@ -137,7 +138,7 @@ comments:
     clientSecret: # GitHub Application Client Secret
     repository: # GitHub repo
     owner: # GitHub repo owner
-    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+    admin:# GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
 
   ## Valine
