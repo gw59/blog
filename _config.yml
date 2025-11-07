@@ -112,7 +112,7 @@ comments:
   provider: giscus # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## giscus
-  giscus: 
+  giscus:
     repo: "gw59/blog"
     repo-id: "R_kgDOQQZCfA"
     category: "Announcements"
@@ -138,7 +138,7 @@ comments:
     clientSecret: # GitHub Application Client Secret
     repository: # GitHub repo
     owner: # GitHub repo owner
-    admin:# GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
 
   ## Valine
