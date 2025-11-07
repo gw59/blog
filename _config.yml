@@ -217,10 +217,6 @@ defaults:
       show_edit_on_github: true
       show_subscribe: true
       pageview: true
-      mathjax: false
-      mathjax_autoNumber: false
-      mermaid: false
-      chart: false
 
 ## => Plugins
 ##############################
